@@ -1,232 +1,85 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
-  box-sizing: border-box;
-}
+<!doctype html>
+<html lang="en" class="h-100">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.87.0">
+    <title>My Personal Website</title>
 
-/* Add a gray background color with some padding */
-body {
-  font-family: Arial;
-  padding: 20px;
-  background: #1a2126;
-}
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/cover/">
 
-/* Header/Blog Title */
-.header {
-  padding: 10px;
-  font-size: 20px;
-  text-align: center;
-  background: white;
-}
+    
 
-/* Create two unequal columns that floats next to each other */
-/* Left column */
-.leftcolumn {   
-  float: left;
-  width: 75%;
-}
+    <!-- Bootstrap core CSS -->
+<link href="bootstrap.min.css" rel="stylesheet">
 
-/* Right column */
-.rightcolumn {
-  float: left;
-  width: 25%;
-  padding-left: 20px;
-}
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
 
-/* Fake image */
-.fakeimg {
-  background-color: #aaa;
-  width: 100%;
-  padding: 20px;
-}
-.fake{
-    border-radius: 50%; 
-    width: 100px;
-  
-}
-/* Add a card effect for articles */
-.card {
-   background-color: white;
-   padding: 20px;
-   margin-top: 20px;
-}
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+      .pro
+      {
+        height: 150px;
+      width: 150px;
+       border-radius: 70%;
+       margin-bottom: 0.429rem;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+ 
+       
+      }
+      .first{
+margine:20px;
+      }
+    </style>
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
+    
+    <!-- Custom styles for this template -->
+    <link href="cover.css" rel="stylesheet">
+  </head>
+  <body class="d-flex h-100 text-center text-white bg-dark">
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+  <header class="mb-auto">
+    <div>
+      <h3 class="float-md-start mb-0">Aniket Shukla</h3>
+      <nav class="nav nav-masthead justify-content-center float-md-end">
+        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        <a class="nav-link" href="https://drive.google.com/file/d/1GheSrtw6R1zh7H2mgI9hzgh6PIbSOzux/view?usp=sharing">Resume</a>
+        <a class="nav-link" href="socials.html">Socials</a>
+        <a class="nav-link" href="mailto:aniketshukla1404@gmail.com">Mail</a>
+        <a class="nav-link" href="https://github.com/AniketShukla14?tab=repositories">Projects</a>
+        <a class="nav-link" href="https://www.credential.net/profile/aniketshukla841387/wallet">Certificates</a>
+      </nav>
+    </div>
+  </header>
+   <img src="images/pro.png" alt="Aniket Shukla pic" class="pro">
 
-/* Footer */
-.footer {
-  padding: 20px;
-  text-align: center;
-  background: #ddd;
-  margin-top: 20px;
-}
+    <h1 class="first">Welcome To My World.</h1>   
+    <h4 class="lead"> Hope You will have a good time here.</h4>
+    <br>
+  <p class="lead">
+      <a href="Intro.html" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Click here to know me more!</a>
+    </p>
 
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 800px) {
-  .leftcolumn, .rightcolumn {   
-    width: 100%;
-    padding: 0;
-  }
-}
-</style>
-</head>
-<body>
-
-<div class="header">
-  <h1>Projects</h1>
+  <footer class="mt-auto text-white-50">
+    <p>&copy 2021<!--<a href="https://getbootstrap.com/" class="text-white"--> Aniket Shukla. All Copyrights Reserved</a><!--, by <a href="https://twitter.com/mdo" class="text-white">@mdo</a>-->.</p>
+    </footer>
 </div>
 
-<div class="row">
-  <div class="leftcolumn">
-    <div class="card">
-      <h1 id="one">Hosteller's Hub</h1>
-      <h5>Title description, Dec 7, 2017</h5>
-      <div class="fakeimg" style="height:200px;">Image</div>
-      <h5>About the project</h5>
-      <p>All-in-one website where students can, Buy and sell their products to gain money, They can upload their Task for getting help from their fellow mates, Can post about their open-source project, Pass outs can share their project ideas, their study materials and guide the juniors.</p>
-      
-      <h3> Project Link </h3> <a href="https://github.com/AniketShukla14/HostellersHub">click here !</a>
-    </div>
-    <div class="card">
-        <h1 id="two">GIF Search Engine</h1>
-        <h5>Title description, Dec 7, 2017</h5>
-        <div class="fakeimg" style="height:200px;">Image</div>
-        <h5>About the project</h5>
-        <p>A search engine which only give results in form of GIF's. I created this search engine to overcome the problem of downloading of Gif's as there was no option available to search for GIF's in google, In order to obtain result we have to mention it specifically.</p>
-        
-        <h3> Project Link </h3> <a href="http://gifsearchengine.me/GIF-Search-Engine/">click here !</a>
-      </div>
-      <div class="card">
-        <h1 id="third">Prediction using Unsupervised ML</h1>
-        <h5>Title description, Dec 7, 2017</h5>
-        <div class="fakeimg" style="height:200px;">Image</div>
-        <h5>About the project</h5>
-        <p>The idea was to perform the prediction using Unsupervised ML with ‘Iris’ dataset and predicted the optimum numbers of clusters and represented it visually.</p>
-        <h3> Project Link </h3> <a href="https://www.youtube.com/watch?v=jjT4B4t2B7M&t=47s">click here !</a>
-      </div>
-      <div class="card">
-        <h1 id="four">AI voice assistant </h1>
-        <h5>Title description, Dec 7, 2017</h5>
-        <div class="fakeimg" style="height:200px;">Image</div>
-        <h5>About the project</h5>
-        <p>An AI voice assistant was created which can greet you and can help you to search on Wikipedia, can email for you, can open the things you want him to open and after adding few lines of code more, it can talk to you too.</p>
-        
-        <h3> Project Link </h3> <a href="#">#!</a>
-      </div>
-      <div class="card">
-        <h1 id="five">The Pre-Prep Hub</h1>
-        <h5>Title description, Dec 7, 2017</h5>
-        <div class="fakeimg" style="height:200px;">Image</div>
-        <h5>About the project</h5>
-        <p>A website which gives individuals a complete roadmap on how to prepare themselves for their future goals, irrespective of the field of study and also skills.</p>
-        <h3> Project Link </h3> <a href="#"># !</a>
-      </div>
-      <div class="card">
-        <h1 id="six">Let's Invite   </h1>
-        <h5>Title description, Dec 7, 2017</h5>
-        <div class="fakeimg" style="height:200px;">Image</div>
-        <h5>About the project</h5>
-        <p>An invitation template which was created in order to invite Someone or to surprise them on the occasion of parties, festivals etc. It is a unique way of inviting, and also it consists of some unique features.</p>
-        <h3> Project Link </h3> <a href="https://aniketshukla14.github.io/Let-s-Invite/">click here !</a>
-      </div>
-      <div class="card">
-        <h1 id="seven">Randomiii</h1>
-        <h5>Title description, Dec 7, 2017</h5>
-        <div class="fakeimg" style="height:200px;">Image</div>
-        <h5>About the project</h5>
-       <p>It is a website that generates Random Places on every Refresh, it contains List Of Beautiful Places along with the Pictures and the Map Location.</p>
-        <h3> Project Link </h3> <a href="https://aniketshukla14.github.io/Randomiii/">click here !</a>
-      </div>
-      <div class="card">
-        <h1 id="eight">Automatic Hand Sanitizer  </h1>
-        <h5>Title description, Dec 7, 2017</h5>
-        <div class="fakeimg" style="height:200px;">Image</div>
-        <h5>About the project</h5>
-      <p>Automatic hand sanitizer was created by using Arduino codes and was deployed in college entrance gate and in canteen during the time of pandemic.</p>
-        <h3> Project Link </h3> <a href="https://www.youtube.com/watch?v=B0nBO3muIrI&ab_channel=Aniketshukla">click here !</a>
-      </div>
-      <div class="card">
-        <h1 id="nine">Voice Controlled Car </h1>
-        <h5>Title description, Dec 7, 2017</h5>
-        <div class="fakeimg" style="height:200px;">Image</div>
-        <h5>About the project</h5>
-         <p>A voice controlled car was created using Arduino codes which can take command from the developer to move.</p>
-        <h3> Project Link </h3> <a href="https://www.youtube.com/watch?v=AEMMlo8OcZE&ab_channel=Aniketshukla">click here !</a>
-      </div>
-      <div class="card">
-        <h1 id="ten">GIPHY Tv</h1>
-        <h5>Title description, Dec 7, 2017</h5>
-        <div class="fakeimg" style="height:200px;">Image</div>
-        <h5>About the project</h5>
-       <li>A TV which runs GIF's continuously.</li>
-        <li>It's a engaging website where a developer can also choose the topic he wants to play on the Tv.
-        </li><li>This website is cool cause you can choose to see your favourites GIF's in order to change your mood or pass your time and also to engage kids and your pets too.</li>
-        <h3> Project Link </h3> <a href="https://aniketshukla14.github.io/GIPHY-TV/">click here !</a>
-      </div>
-      <div class="card">
-        <h1 id="eleven">Data Visualization</h1>
-        <h5>Title description, Dec 7, 2017</h5>
-        <div class="fakeimg" style="height:200px;">Image</div>
-        <h5>About the project</h5>
-     <p>A project which creates a data visualization with the help of JavaScript. I created this to make a visualization of spreadsheet data into charts, when we change some data inside the spreadsheet it will reflect in the chart too simultaneously.</p>
-        <h3> Project Link </h3> <a href="https://github.com/AniketShukla14/Data-Visualization">click here !</a>
-      </div>
-  </div>
-  <div class="rightcolumn">
-    <div class="card">
-        <h3>Table Of Content</h3>
-        <li><a href="#one">Hosteller's Hub</a></li>
-        <li><a href="#two">GIF Search Engine</a></li>
-        <li><a href="#third">Prediction using Unsupervised ML</a></li>   
-        <li><a href="#four">AI voice assistant</a></li>   
-        <li><a href="#five">The Pre-Prep Hub</a></li>
-        <li><a href="#six">Let's Invite</a></li> 
-        <li><a href="#seven">Randomiii</a></li>   
-        <li><a href="#eight">Automatic Hand Sanitizer</a></li>   
-        <li><a href="#nine">Voice Controlled Car</a></li>     
-        <li><a href="#ten">GIPHY Tv</a></li> 
-        <li><a href="#eleven">Data Visualization</a></li>     
-      </div>
-    <div class="card">
-        <h3>Minor Projects</h3>
-        <li><a href="https://github.com/AniketShukla14/Stress">Stress</a></li>
-        <li><a href="https://aniketshukla14.github.io/Cookie-Monster-Portfolio/">Cookie Monster Portfolio</a></li>
-        <li><a href="https://aniketshukla14.github.io/Happy-Hub/">Happy Hub</a></li>   
-        <li><a href="https://github.com/AniketShukla14/Automated-Dino-Game">Automated Dino Game</a></li>   
-        <li><a href="https://github.com/AniketShukla14/Mobile-controlled-Car">Mobile Controlled Car</a></li>
-        <li><a href="https://github.com/AniketShukla14/Voice-Controlled-LED">Voice Controlled LED</a></li> 
-        <li><a href="https://github.com/AniketShukla14/Stone-paper-Scissor">Stone paper Scissor</a></li>   
-        <li><a href="https://github.com/AniketShukla14/World-Clock">World-Clock</a></li>   
-        <li><a href="https://github.com/AniketShukla14/Basic-Blog-page">Basic Blog page</a></li>     
-        <li><a href="https://github.com/AniketShukla14/RADAR-System">Radar System</a></li>     
-      </div>
-   
-    <div class="card">
-      <h2>About Me</h2>
-      <div class="fake" style="height:100px;">Round Image</div>
-      <p>Hello I am Aniket Shukla. I am in 3rd year !</p>
-    </div>
-   
-    <div class="card">
-      <h3>Follow Me</h3>
-      <h4>Github:</h4> <a href="https://github.com/AniketShukla14">https://github.com/AniketShukla14</a>
-      <h4>linkedin:</h4> <a href="https://www.linkedin.com/in/aniketshukla14/">https://www.linkedin.com/in/aniketshukla14/</a>
-      <h4>Instagram:</h4>  <a href="https://www.instagram.com/aniketshukla14/">https://www.instagram.com/aniketshukla14/</a>
-    </div>
-  </div>
-</div>
 
-<div class="footer">
-  <h2>Footer</h2>
-</div>
-
-</body>
+    
+  </body>
 </html>
